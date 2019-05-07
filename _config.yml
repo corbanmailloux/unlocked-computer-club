@@ -1,0 +1,32 @@
+# Site settings
+title: Unlocked Computer Club
+# author: Corban Mailloux
+# email: unlocked-computer-club@corb.co
+description: >-
+  Unlocked Computer Club is the place to go to mess with people who have left their computers
+  unlocked.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: jekyllrb
+github_username:  corbanmailloux
+
+# A list of the pages to display in the navigation bar
+header_pages:
+
+
+# Build settings
+markdown: kramdown
+# plugins:
+#   - jekyll-feed
+#   - jekyll-sitemap
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - update_boostrap.sh
